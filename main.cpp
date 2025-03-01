@@ -11,7 +11,7 @@ using namespace std;
 
 int main() {
 
-    string filePath = "proc/stat";
+    string filePath = "/proc/stat";
 
     ifstream inputFile;
     inputFile.open(filePath);
